@@ -18,7 +18,7 @@ For $\lambda$-terms is the following syntax working:
 - Variable: this can be any symbol which represents another value (e.g. x and y).
 - Numiric literal: every number or integer (e.g. 2 and 9).
 - Function abstraction: difined as $$(\lambda x.M) $$, in which x is the variable and M is the body of the $\lambda$-term.
-- Application: two terms will be applied to each other, for example $$(\lambda x.x) y)$$.
+- Application: two terms will be applied to each other, for example $$((\lambda x.x) y)$$.
 - Arithmetic operations: the basic mathematical computations will be applied, such as $$(3+2)$$ and $$(x^2)$$.
 
 ### Code explination
