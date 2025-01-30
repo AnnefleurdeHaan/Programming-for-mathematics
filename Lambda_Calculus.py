@@ -44,7 +44,6 @@ class LambdaTerm:
                     
         symbols = cls.split_symbols(string)
         if len(symbols) > 1:
-            # Apply the application form left to right
             current_value = cls.fromstring(symbols[0])
             for token in symbols[1:]:
                 current_value = Application(current_value, cls.fromstring(token))
